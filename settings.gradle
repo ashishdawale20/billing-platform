@@ -1,0 +1,8 @@
+rootProject.name = 'billing-platform'
+
+include(
+        'libs:common',
+        'apps:billing-api',
+        'apps:invoicing-worker',
+        'apps:payments-webhooks-worker'
+)
